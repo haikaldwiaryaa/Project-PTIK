@@ -1,0 +1,189 @@
+
+:root{
+    margin: 0;
+    padding : 0;
+    font-family : verdana;
+   } 
+
+
+.navigasi {
+    background-color: #EE9B00;
+    width: 99%;
+    position: absolute;
+    height: 80px;
+    color: white;
+    font-family : verdana;
+}
+
+.tengah{
+    float: left;
+    padding-top: 3px;
+    padding-bottom: 10px; 
+    padding-left: 30px;
+}
+
+.menu{
+    margin-left: 800px;
+    padding-top: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: #ca6702;
+    font-style: italic;
+}
+
+.banner {
+    background-color: #ca6702;
+    height: 700px;
+    text-align: center;
+    font-family : verdana;
+    color: white;
+}
+
+.banner img {
+    border-radius: 10px;
+    height: 150px;
+    margin-right: 0px;
+    margin-top: 100px;
+    border: 6px solid white;
+}
+
+.banner h1{
+    margin-top: 10px;
+}
+
+.banner p {
+    margin-top: 10px;
+}
+
+.banner button {
+    padding: 5px;
+    margin-top: 60 px;
+    height: 30px;
+    width: 400px;
+    border-radius: 100px;
+    color: orange;
+    border: 1px solid white ;
+}
+
+.banner button:hover {
+    background-color: #EE9B00;
+    border: 1px solid white ;
+}
+
+h1 span:before {
+    content: '';
+    animation: gerak infinite 5s ease;
+    transform: translateY(-50%);
+    color: orange;
+    font-size: 50px;
+}
+
+@keyframes gerak {
+    10%{
+        content: 'Selamat datang';
+    }
+    50%{
+        content: 'Saya Rama Dwi Nugraha';
+    }
+    100%{
+        content: 'Terima kasih sudah singgah';
+    }
+}
+
+.box{
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 90px;
+    margin-left: 30px;
+    align-content: center;
+}
+
+.boxk, .boxt, .boxki {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 5px;
+    margin: 70px 20px 25px 55px;
+    float: left;
+}
+
+.boxk:hover, .boxt:hover, .boxki:hover {
+    background-color:#EE9B00 ;
+    color:white;
+
+}
+
+.box h3 p {
+    margin-top: 10px;
+    margin-bottom : 13px;
+    padding: 0px;
+}
+
+.boxsoft{
+    text-align: center;
+    color: #4d4d4d;
+    margin: 0px auto;
+    margin-top: 0px auto;
+    margin-left: 30px;
+    align-content: center;
+}
+
+.kontak {
+    text-align: center;
+    color: #4d4d4d;
+    margin: 0px auto;
+    margin-top: 0px auto;
+    margin-left: 30px;
+    align-content: center;
+}
+
+.kontak img{
+    width: 150px;
+}
+
+.footer{
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin: 0px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 100;
+  margin: 65px;
+  margin-left: 10px;
+}
+.back-button {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background:burlywood;
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px hsl(46, 68%, 96%);
+}
